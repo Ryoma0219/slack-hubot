@@ -20,6 +20,3 @@ module.exports = (robot) ->
 
   robot.respond /(?=.*誕生日)(?=.*おめでとう).*/i, (msg) ->
     msg.send "ザス！"
-
-  robot.respond /(?!.*誕生日)(?!.*おめでとう).*/i, (msg) ->
-    msg.send "ザサナイ（；；）"
